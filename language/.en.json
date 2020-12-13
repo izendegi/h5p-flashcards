@@ -1,39 +1,39 @@
 {
   "semantics": [
     {
-      "label": "Task description"
+      "label": "Zereginaren deskribapena"
     },
     {
       "widgets": [
         {
-          "label": "Default"
+          "label": "Lehentsitakoa"
         }
       ],
-      "label": "Cards",
-      "entity": "card",
+      "label": "Kartak",
+      "entity": "karta",
       "field": {
-        "label": "Card",
+        "label": "Karta",
         "fields": [
           {
-            "label": "Question",
-            "description": "Optional textual question for the card. (The card may use just an image, just a text or both)"
+            "label": "Galdera",
+            "description": "Kartaren galderarentzako aukerazko testua. (Karta irudi gisa soilik, testu gisa soilik, edo biak batera erabili daiteke)"
           },
           {
-            "label": "Answer",
-            "description": "Optional answer (solution) for the card."
+            "label": "Erantzuna",
+            "description": "Kartarentzako aukerazko erantzuna (erantzun zuzena)."
           },
           {
-            "label": "Image",
-            "description": "Optional image for the card. (The card may use just an image, just a text or both)"
+            "label": "Irudia",
+            "description": "Kartarentzako aukerazko irudia. (Karta irudi gisa soilik, testu gisa soilik, edo biak batera erabili daiteke)"
           },
           {
-            "label": "Alternative text for image"
+            "label": "Irudiarentzako ordezko testua"
           },
           {
-            "label": "Tip",
+            "label": "Pista",
             "fields": [
               {
-                "label": "Tip text"
+                "label": "Pistaren testua"
               }
             ]
           }
@@ -41,75 +41,75 @@
       }
     },
     {
-      "label": "Progress text",
-      "default": "Card @card of @total",
-      "description": "Progress text, variables available: @card and @total. Example: 'Card @card of @total'"
+      "label": "Aurrerapenaren testua",
+      "default": "@card. karta @total kartatik",
+      "description": "Aurrerapenaren testua, aldagaiak hauek dira: @card eta @total. Adibidea: '@card. karta @total kartatik'"
     },
     {
-      "label": "Text for the next button",
-      "default": "Next"
+      "label": "Hurrengo botoiarentzako testua",
+      "default": "Hurrengoa"
     },
     {
-      "label": "Text for the previous button",
-      "default": "Previous"
+      "label": "Aurreko botoiarentzako testua",
+      "default": "Aurrekoa"
     },
     {
-      "label": "Text for the check answers button",
-      "default": "Check"
+      "label": "Erantzunak egiaztatzeko botoiaren testua",
+      "default": "Egiaztatu"
     },
     {
-      "label": "Require user input before the solution can be viewed"
+      "label": "Behartu erabiltzaileari zerbait idazten erantzun zuzena ikusi aurretik"
     },
     {
-      "label": "Text for the answer input field",
-      "default": "Your answer"
+      "label": "Erantzuna idazteko eremuarentzako testua",
+      "default": "Zure erantzuna"
     },
     {
-      "label": "Text for correct answer",
-      "default": "Correct"
+      "label": "Erantzun zuzenarentzako testua",
+      "default": "Zuzena"
     },
     {
-      "label": "Text for incorrect answer",
-      "default": "Incorrect"
+      "label": "Erantzun okerrarentzako testua",
+      "default": "Okerra"
     },
     {
-      "label": "Show solution text",
-      "default": "Correct answer"
+      "label": "Erakutsi erantzunarentzako testua",
+      "default": "Erantzun zuzena"
     },
     {
-      "label": "Text for results title",
-      "default": "Results"
+      "label": "Emaitzen izenbururako testua",
+      "default": "Emaitzak"
     },
     {
-      "label": "Text for number of correct",
-      "default": "@score of @total correct",
-      "description": "Result text, variables available: @score and @total. Example: '@score of @total correct'"
+      "label": "Erantzun zuzenen kopuruarentzako testua",
+      "default": "@score ondo guztirako @total(e)tik",
+      "description": "Emaitzaren testua, aldagaiak hauek dira: @score eta @total. Adibidea: '@score ondo guztirako @total(e)tik'"
     },
     {
-      "label": "Text for show results",
-      "default": "Show results"
+      "label": "Emaitzak erakusteko testua",
+      "default": "Erakutsi emaitzak"
     },
     {
-      "label": "Text for short answer label",
-      "default": "A:"
+      "label": "Erantzun laburreko etiketarentzako testua",
+      "default": "Erantzuna:"
     },
     {
-      "label": "Text for \"retry\" button",
-      "default": "Retry"
+      "label": "\"berriz saiatu\" botoiaren testua",
+      "default": "Berriz saiatu"
     },
     {
-      "label": "Case sensitive",
-      "description": "Makes sure the user input has to be exactly the same as the answer."
+      "label": "Bereiztu maiuskula eta minuskulak",
+      "description": "Erabiltzaileak idatzitakoa erantzunarekin guztiz bat datorrela bermatzen du."
     },
     {
-      "label": "Incorrect text for assistive technologies",
-      "default": "Incorrect answer. Correct answer was @answer",
-      "description": "Text that will be announced to assistive technologies. Use @answer as variable."
+      "label": "Erantzun okerrentzako testua laguntza-teknologientzat",
+      "default": "Erantzun okerra. Erantzun zuzena @answer zen",
+      "description": "Laguntza-teknologietan argitaratuko den testua. @answer aldagaia erabili daiteke."
     },
     {
-      "label": "Card change for assistive technologies",
-      "default": "Page @current of @total",
-      "description": "Text that will be announced to assistive technologies when navigating between cards. Use @current and @total as variables."
+      "label": "Karta-aldaketa laguntza-teknologientzat",
+      "default": "@current orria guztirako @total(e)tik",
+      "description": "Laguntza-teknologietankarten arteko nabigazioan argitaratuko den testua. @current eta @total aldagaiak erabili daitezke."
     }
   ]
 }
